@@ -1,6 +1,10 @@
 .profile-pic {
-  float: right;
-  width: 980px;
+  float: right;  
+  width: 250px;
+  max-width: 100%;  /* Limits image width to the container's width */
+  height: auto;     /* Maintains the image's aspect ratio */
+  #border-radius: 50%; /* Optional: makes the image circular if it’s a profile pic */
+  object-fit: cover; /* Ensures it scales within dimensions */
   border: #ccc 1px solid;
   margin-left: 20px;
 
