@@ -1,6 +1,6 @@
-.profile-pic {
+.homepage-pic {
   float: right;  
-  #width: 250px;
+  width: 250px;
   max-width: 100%;  /* Limits image width to the container's width */
   height: auto;     /* Maintains the image's aspect ratio */
   object-fit: cover; /* Ensures it scales within dimensions */
